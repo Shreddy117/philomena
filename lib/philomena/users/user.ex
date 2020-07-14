@@ -385,11 +385,11 @@ defmodule Philomena.Users.User do
     provisioning_uri = %URI{
       scheme: "otpauth",
       host: "totp",
-      path: "/Ponybooru:" <> user.email,
+      path: "/Trixiebooru:" <> user.email,
       query:
         URI.encode_query(%{
           secret: secret,
-          issuer: "Ponybooru"
+          issuer: "Trixiebooru"
         })
     }
 

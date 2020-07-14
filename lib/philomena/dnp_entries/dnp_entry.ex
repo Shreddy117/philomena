@@ -64,16 +64,14 @@ defmodule Philomena.DnpEntries.DnpEntry do
 
   def reasons do
     [
-      {"Artist Upload Only", "I am an artist and will be uploading my own art."},
-      {"With Permission Only", "I am an artist and have given specific people permission to upload my art."},
-      {"Delayed Artist Upload Only", "I am an artist and will be uploading my own art. After a default of 6 months, users can post my art."},
-      {"Delayed With Permission Only", "I am an artist and have given specific people permission to upload my art. After a default of 6 months, users can post my art."},
+      {"Artist Upload Only", "I am an artist and will be uploading my own art within 120 days of being posted elsewhere."},
+      {"With Permission Only", "I am an artist and have given specific people permission to upload my art within 120 days of being posted elsewhere."},
       {"Uploader Credit Change", "I would like the uploader credit for existing and future uploads of my art to be assigned to me."},
       {"Limited Edits", "I am an artist and would like to limit edits to things likely to fall under Fair Use (Parody, Transformative, Sufficiently different from original.)"},
       {"Separate Edits", "I am an artist and would like edits to be placed under a different artist tag."},
       {"User Interaction Lock", "I am an artist and would like my art to have comments disabled."},
-      {"Video Hold", "I am a content creator and would like to delay my videos from being uploaded to Ponybooru."},
-      {"Image Hold", "I am an artist and would like to delay my art from being uploaded to Ponybooru."},
+      {"Video Hold", "I am a content creator and would like to delay my videos from being uploaded to Trixiebooru."},
+      {"Image Hold", "I am an artist and would like to delay my art from being uploaded to Trixiebooru."},
       {"Artist Tag Change", "I would like my artist tag to be changed to something that can not be connected to my current name."},
       {"Hidden by default", "I would like my art to be available to logged in users only."},
       {"Other", "Choose this if you would like to choose a combination of other DNP types."}
